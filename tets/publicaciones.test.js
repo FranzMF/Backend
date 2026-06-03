@@ -14,7 +14,7 @@ describe("Publicaciones Routes", () => {
     jest.clearAllMocks();
   });
 
-  // ─── GET /api/publicaciones 
+  // GET /api/publicaciones 
 
   describe("GET /api/publicaciones", () => {
     it("devuelve la lista de publicaciones con status 200", async () => {
@@ -47,7 +47,7 @@ describe("Publicaciones Routes", () => {
     });
   });
 
-  // ─── POST /api/publicaciones 
+  //  POST /api/publicaciones 
 
   describe("POST /api/publicaciones", () => {
     const publicacionValida = {

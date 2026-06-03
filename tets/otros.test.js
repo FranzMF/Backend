@@ -15,7 +15,7 @@ function makeApp(path, router) {
   return app;
 }
 
-// ─── MATERIALES 
+// MATERIALES 
 
 describe("Materiales Routes", () => {
   const app = makeApp("/api/materiales", materialesRoutes);
@@ -51,7 +51,7 @@ describe("Materiales Routes", () => {
   });
 });
 
-// ─── NOTIFICACIONES 
+// NOTIFICACIONES 
 
 describe("Notificaciones Routes", () => {
   const app = makeApp("/api/notificaciones", notificacionesRoutes);
@@ -119,7 +119,7 @@ describe("Notificaciones Routes", () => {
   });
 });
 
-// ─── CONFIGURACIONES
+// CONFIGURACIONES
 
 describe("Configuraciones Routes", () => {
   const app = makeApp("/api/configuraciones", configuracionesRoutes);

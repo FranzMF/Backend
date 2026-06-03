@@ -14,7 +14,7 @@ describe("Users Routes", () => {
     jest.clearAllMocks();
   });
 
-  // ─── GET /api/users 
+  // GET /api/users 
 
   describe("GET /api/users", () => {
     it("devuelve la lista de usuarios con status 200", async () => {
@@ -41,7 +41,7 @@ describe("Users Routes", () => {
     });
   });
 
-  // ─── POST /api/users/register 
+  // POST /api/users/register 
 
   describe("POST /api/users/register", () => {
     it("registra un usuario ciudadano (rol != reciclador) con id_rol 1", async () => {
@@ -93,7 +93,7 @@ describe("Users Routes", () => {
     });
   });
 
-  // ─── POST /api/users/login 
+  // POST /api/users/login 
 
   describe("POST /api/users/login", () => {
     it("responde con éxito y datos del usuario si las credenciales son correctas", async () => {
