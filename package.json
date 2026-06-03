@@ -22,12 +22,20 @@
     "@babel/preset-env": "^7.29.7",
     "babel-jest": "^30.4.1",
     "jest": "^30.4.2",
+    "jest-html-reporter": "^4.4.0",
     "supertest": "^7.2.2"
   },
   "jest": {
     "testEnvironment": "node",
     "transform": {
       "^.+\\.js$": "babel-jest"
-    }
+    },
+    "reporters": [
+      "default",
+      ["jest-html-reporter", {
+        "pageTitle": "Backend Test Report",
+        "outputPath": "test-report/index.html"
+      }]
+    ]
   }
 }
